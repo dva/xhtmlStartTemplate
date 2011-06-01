@@ -1,0 +1,19 @@
+# humanstxt.org
+
+            __         ___                
+  |_ |_ _ |(_ |_ _  _|_ | _ _  _ | _ |_ _ 
+)(| )|_||||__)|_(_|| |_ |(-||||_)|(_||_(- 
+
+
+/* TEAM */
+  dva
+  Site: dva.sumy.ua
+
+
+/* THANKS  */
+  xhtmlStartTemplate
+  Site: github.com/dva/xhtmlStartTemplate
+
+
+/* SITE  */
+  Created: 3 Mar 2011

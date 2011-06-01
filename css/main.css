@@ -1,0 +1,96 @@
+@import url(snippets.css); /* A HANDY CSS DEBUGGING SNIPPET */
+
+body {
+  font-size: 62.5%; /* How to size text using ems clagnut.com/blog/348/ */
+}
+
+img {
+  border: none; /* Remove line on 'a img', i.e. <a href='#'> <img /> </a> */
+}
+
+a {
+  outline: none; /* Firefox: Remove dotted line after "a href" link activation */
+}
+
+strong, th { font-weight: bold; }
+
+input, select { vertical-align: middle; }
+
+del { text-decoration: line-through; }
+
+small { font-size: 85%; }
+
+.strong { font-weight: bold; }
+
+.uppercase { text-transform: uppercase; }
+
+.inline { display: inline; }
+.block { display: block; }
+.none { display: none; }
+
+.float-left { float: left; }
+.float-right { float: right; }
+
+.align-left { text-align: left; }
+.align-right { text-align: right; }
+.align-center { text-align: center; }
+
+.style-italic { font-style: italic; }
+
+textarea {
+  resize: none;  /* Remove the blue border glow. More tweaks here: css-tricks.com/textarea-tricks/ */
+  overflow: auto; /* Remove default scrollbars in Internet Explorer. More tweaks here: css-tricks.com/textarea-tricks/ */
+}
+
+input { outline: none; } /* Remove resize handle. More tweaks here: css-tricks.com/textarea-tricks/ */
+
+/**
+ * Center layer css snippet
+ * You can use it if needed
+ */
+
+#centerLayer {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  left: 50%;
+  top: 50%;
+  margin-left: -200px;
+  margin-top: -150px;
+  background: #fc0;
+  border: solid 1px black;
+  padding: 10px;
+  overflow: auto;
+}
+
+
+/**
+ * Perfect Full Page Background Image
+ * this & other ways css-tricks.com/perfect-full-page-background-image/
+ */
+
+.body-background-image { /* add this class -> #body */
+  background: url(../images/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/**
+ * Basic start markup
+ */
+
+#page-wrap {
+  width: 960px;
+  margin: 0 auto;
+}
+
+  #page-wrap #inside {
+    margin: 40px 0 0 0;
+    background: #FFFFFF;
+    min-height: 600px;
+    font-size: 1.4em;
+    font-family: Arial, Helvetica, sans-serif; /* browser safe fonts ampsoft.net/webdesign-l/WindowsMacFonts.html */
+  }

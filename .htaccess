@@ -1,0 +1,21 @@
+# Apache configuration file
+# httpd.apache.org/docs/2.2/mod/quickreference.html
+
+# Note .htaccess files are an overhead, this logic should be in your Apache config if possible
+# httpd.apache.org/docs/2.2/howto/htaccess.html
+
+# No-WWW
+# RewriteEngine On
+# RewriteCond %{HTTP_HOST} !^your-site.com$ [NC]
+# RewriteRule ^(.*)$ http://your-site.com/$1 [L,R=301]
+
+ErrorDocument 404 /404.html
+
+
+# Turning on the rewrite engine is necessary for the following rules and features.
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+</IfModule>
+
+# Redirect 301 /from-url /to-path
