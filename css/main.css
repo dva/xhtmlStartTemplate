@@ -82,12 +82,12 @@ input { outline: none; } /* Remove resize handle. More tweaks here: css-tricks.c
  * Basic start markup
  */
 
-#page-wrap {
+#page-wrap { /* TODO change this styles on your project */
   width: 960px;
   margin: 0 auto;
 }
 
-  #page-wrap #inside {
+  #page-wrap #inside { /* TODO change this styles on your project */
     margin: 40px 0 0 0;
     background: #FFFFFF;
     min-height: 600px;
