@@ -4,7 +4,7 @@
   display: none;
 }
 
-#wrapper, #content {
+#page-wrap, #inside {
   width: auto;
   border: 0;
   margin: 0 5%;
