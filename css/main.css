@@ -4,6 +4,10 @@ body {
   font-size: 62.5%; /* How to size text using ems clagnut.com/blog/348/ */
 }
 
+.clear { clear: both; }
+.clear.left { clear: left; }
+.clear.right { clear: right; }
+
 img {
   border: none; /* Remove line on 'a img', i.e. <a href='#'> <img /> </a> */
 }
