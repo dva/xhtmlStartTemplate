@@ -7,7 +7,7 @@
 
 /* TEAM */
   dva
-  Site: dva.sumy.ua
+  Site: 2citizen.com
 
 
 /* THANKS  */
