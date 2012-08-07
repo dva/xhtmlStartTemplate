@@ -1,5 +1,14 @@
 jQuery.noConflict();
 
 jQuery(document).ready(function() {
-  console.log('Hello world');
+	cl('Hello world');
 });
+
+/**
+ * Shortcut for console.log()
+ * @param value
+ */
+
+function cl(value) {
+	console.log(value);
+}
