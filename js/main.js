@@ -1,6 +1,6 @@
 jQuery.noConflict();
 
-jQuery(document).ready(function() {
+jQuery(document).ready(function($) {
 	cl('Hello world');
 });
 
@@ -11,4 +11,14 @@ jQuery(document).ready(function() {
 
 function cl(value) {
 	console.log(value);
+}
+
+/**
+ * Operation time tracker 
+ */
+
+function TimeTracker(){  
+    console.time("MyTimer");  
+    for(x=5000; x > 0; x--){}  
+    console.timeEnd("MyTimer");  
 }
